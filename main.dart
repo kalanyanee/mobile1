@@ -83,7 +83,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(title: const Text('คำคมกวนๆ')),
       floatingActionButton: FloatingActionButton(
         onPressed: handleClickGo,
-        child: const Text('GO'),
+        child: const Text('Next Quote'),
       ),
       body: Center(
         child: Padding(
